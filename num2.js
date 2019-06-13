@@ -1,4 +1,3 @@
-
 var headOne= document.querySelector('#hover')
 var headTwo= document.querySelector('#contact')
 var headThree= document.querySelector('#listsocial')
@@ -37,6 +36,33 @@ headFour.addEventListener("mouseout",function(){
   headFour.textContent= "Summary of the main Skills";
   headFour.style.color='black';
 })
+
+headFive.addEventListener('mouseover', function(){
+  headFive.style.color = 'yellow';
+})
+headFive.addEventListener("mouseout",function(){
+  headFive.textContent= "Education";
+  headFive.style.color='black';
+})
+
+headSix.addEventListener('mouseover', function(){
+  headSix.style.color = 'yellow';
+})
+headSix.addEventListener("mouseout",function(){
+  headSix.textContent= "My Projects!";
+  headSix.style.color='black';
+})
+
+// headTwo.addEventListener('click', function(){
+//   headTwo.textContent= 'Clicked on';
+//   headTwo.style.color='blue'
+// })
+//
+// headThree.addEventListener('dblclick', function(){
+//   headTwo.textContent= 'doubleclicked';
+//   headTwo.style.color='red'
+// })
+
 
 headFive.addEventListener('mouseover', function(){
   headFive.style.color = 'yellow';
