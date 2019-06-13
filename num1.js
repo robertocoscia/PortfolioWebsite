@@ -1,3 +1,13 @@
+
+
+//name.getAttribute("href")
+//name.setAttribute("href","http://www.amazon.com")
+
+//var head= document.querySelector('h1')
+//head.addEventListener("click", changecolor)   //click,hovers.doubleclick, drags etc
+//search for web events on developer.mozilla.org
+
+
 const sections= document.querySelectorAll('section');
 const prevBtn= document.querySelector('.prev');
 const nextBtn= document.querySelector('.next');
