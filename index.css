@@ -1,11 +1,16 @@
 .header{
   display: block;
-  background-color: #ffffff;
+  background-color: white;
+
+  background-repeat: no-repeat;
+  border: 1px solid black;
+
   top: 0;
   height: 100px;
   width: 100%;
   position: fixed;
   z-index: 1000;
+  overflow: hidden;
 }
 
 @media query {min-width: 600px ;
@@ -53,6 +58,7 @@
 
 .header .optionheader {
   float:right;
+
   position:relative;
   right: 25px;
   display: inline;
@@ -84,12 +90,18 @@
     position:absolute;
     width: 100%;
     margin-top: 100px;
+
+    border: 1px solid black;
     height: 750px;
-    background-image: url(img/Untitled1.gif);
+    background-image: url(img/home.jpg);
+
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    border 1px solid black;
-    overflow:scroll;
+    justify-content: center;
+
+
+
+
     }
 
     .wrapper1 #imageabout img{
@@ -104,14 +116,14 @@
     .bodypage1 #parag1{
       color:#282827;
       display: inline-block;
-      font-family: tahoma, serif;
-      font-size: 22px;
+      font-family: Helvetica, serif;
+      font-size: 20px;
       text-align: left;
       margin-top: 0px;
       margin-left:20px;
       padding: 20px;
       height:400px;
-      width: 850px;
+      width: 50%;
       border: 2px solid black;
       border-radius: 20px;
       box-shadow: 2px 5px;
@@ -120,8 +132,8 @@
     .bodypage1 #parag2{
       color:#282827;
       display: inline-block;
-      font-family: tahoma, serif;
-      font-size: 22px;
+      font-family: Helvetica;
+      font-size: 20px;
       margin-top: 0px;
       margin-left:270px;
       border-radius: 20px;
@@ -143,10 +155,10 @@
     padding-top: 20px;
     margin-top:750px;
     height:800px;
+    width: 100%;
     color: #fff;
     background-color: #87cefa ;
-    background-image: url(img/about2.png);
-    background-size: 100% 100%;
+    background-image: url(img/about4.jpg);
     overflow-y: scroll;
   }
 
@@ -154,7 +166,7 @@
     padding-top:50px;
     height:800px;
     color: black;
-    background-image: url(img/33.jpg);
+    background-image: url(img/project2.jpg);
     background-size: 100% 100%;
     width: 100%;
     overflow: scroll;
@@ -200,7 +212,7 @@
     margin: 10px;
     text-align: center;
     line-height: 75px;
-    font-size: 30px;
+    font-size: 20px;
 
   }
 
@@ -226,7 +238,7 @@
     margin: 10px;
     text-align: center;
     line-height: 75px;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   #portfolio .flex-container2 #html img{
@@ -310,8 +322,8 @@
   #contact{
     padding-top: 50px;
     height:800px;
-    color: #fff;
-    background-color: #00bcd4;
+    color: white;
+    background-color: white;
     display: block;
     width: 100%;
     overflow-y: scroll;
@@ -319,12 +331,13 @@
 
 .contactcontent{
   overflow-y: scroll;
-  background-image: url('img/contact.jpg');
+  background-image: url('img/contact3.jpg');
   background-size: 100% 100%;
 }
 
 .contactcontent h1{
   text-align: center;
+  font-style: Helvetica;
   text-decoration: underline;
   text-shadow:2px 2px black;
   text-rendering: geometricPrecision;
@@ -375,18 +388,20 @@
     float:left;
     padding-top: 60px;
     margin-left: 20%;
-    font-size: 22px;
-    font-family: tahoma;
-    color: black;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: white;
+    width: 30%;
+    overflow-x: scroll;
   }
 
   .contactcontent p{
     width: 500px;
     height: 400px;
     float: right;
-    font-size: 22px;
-    font-family: tahoma;
-    color: black;
+    font-size: 20px;
+    font-family: Helvetica;
+    color: white;
   }
 
   .contactcontent #info{
