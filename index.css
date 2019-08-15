@@ -1,10 +1,8 @@
 .header{
   display: block;
-  background-color: white;
-
+  background-color: #DCDCDC;
   background-repeat: no-repeat;
   border: 1px solid black;
-
   top: 0;
   height: 100px;
   width: 100%;
@@ -22,20 +20,22 @@
 .header .headertitle{
   display: inline-block;
   top: 0;
-  font-family: 'Tangerine', serif;
-  font-size: 20px;
+  font-family: 'Montserrat', serif;
+  font-weight: lighter;
+  font-size: 30px;
   padding-top: 0px;
   margin-right: 0;
-  margin-left: 0;
+  margin-left: 0px;
   float: left;
 }
 .header .headertitle:hover{
   display: inline-block;
   top: 0;
-  font-family: 'Tangerine', serif;
+  font-family: 'Montserrat', serif;
+  font-size: 30px;
   padding-top: 2px;
   margin-right: 0;
-  margin-left: 0;
+  margin-left: 0px;
   float: left;
 }
 
@@ -45,6 +45,7 @@
    background-size:contain;
    height:100px;width:100px;
    float: left;
+   margin-left: 10%;
    top: 0;
 }
 
@@ -52,28 +53,22 @@
 .header .headertitle h1{
   margin-top: 10px;
   margin-left: 20px;
+  font-size: 30px;
   position:relative;
   top: 0;
 }
 
-.header .optionheader {
-  float:right;
 
-  position:relative;
-  right: 25px;
-  display: inline;
-  font-family: 'Tangerine', serif;
-  font-size: 36px;
-  top: 0;
-}
 
 .header .optionheader{
+
   float:right;
   position:relative;
   right: 25px;
   display: inline;
-  font-family: 'Tangerine', serif;
-  font-size: 36px;
+  margin-right: 10%;
+  font-family: 'Montserrat', serif;
+  font-size: 22px;
   top: 0;
 }
 
@@ -87,80 +82,19 @@
 @media only screen and (min-width: 600px){
 
   .bodypage1{
-    position:absolute;
-    width: 100%;
-    margin-top: 100px;
 
-    border: 1px solid black;
-    height: 750px;
+    margin-top: 100px;
+    height: 900px;
     background-image: url(img/home.jpg);
 
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    justify-content: center;
-
-
 
 
     }
 
-    .wrapper1 #imageabout img{
-      float: left;
-      width: 350px;
-      height:350px;
-      padding-bottom: 50px;
-      margin-top: 100px;
-      margin-left: 15%;
-    }
 
-    .bodypage1 #parag1{
-      color:#282827;
-      display: inline-block;
-      font-family: Helvetica, serif;
-      font-size: 20px;
-      text-align: left;
-      margin-top: 0px;
-      margin-left:20px;
-      padding: 20px;
-      height:400px;
-      width: 50%;
-      border: 2px solid black;
-      border-radius: 20px;
-      box-shadow: 2px 5px;
-    }
 
-    .bodypage1 #parag2{
-      color:#282827;
-      display: inline-block;
-      font-family: Helvetica;
-      font-size: 20px;
-      margin-top: 0px;
-      margin-left:270px;
-      border-radius: 20px;
-      width: 100%;
-      height:150px;
-      width: 1300px;
-      border: 2px solid black;
-      box-shadow: 2px 5px;
-      padding: 20px;
-    }
-
-    .bodypage1 #aboutmetitle{
-      color: #282827;
-      margin-top: 50px;
-      margin-left: 200px;
-    }
-
-  #about {
-    padding-top: 20px;
-    margin-top:750px;
-    height:800px;
-    width: 100%;
-    color: #fff;
-    background-color: #87cefa ;
-    background-image: url(img/about4.jpg);
-    overflow-y: scroll;
-  }
 
   #portfolio {
     padding-top:50px;
@@ -312,102 +246,56 @@
     height: 110px;
 
   }
-
-
-
-
-
-
-
-  #contact{
-    padding-top: 50px;
-    height:800px;
-    color: white;
-    background-color: white;
-    display: block;
-    width: 100%;
-    overflow-y: scroll;
-}
-
-.contactcontent{
-  overflow-y: scroll;
-  background-image: url('img/contact3.jpg');
-  background-size: 100% 100%;
-}
-
-.contactcontent h1{
-  text-align: center;
-  font-style: Helvetica;
-  text-decoration: underline;
-  text-shadow:2px 2px black;
-  text-rendering: geometricPrecision;
-}
-.flex-container{
-  display: flex;
-  flex-wrap: nowrap;
-  align-content: center;
-  margin-left: 40%;
-  width: 350px;
-  }
-
-  .flex-container div{
-    width: 100px;
-    margin: 10px;
-    z-index: 1;
-    line-height: 100px;
-    height: 100px;
-  }
-
-  .flex-container div:hover{
-    width: 110px;
-    margin: 10px;
-    z-index: 1;
-    line-height: 110px;
-    height: 100px;
-  }
-
   #facebook a img{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
   }
 
   #linkedin a img{
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     cursor: pointer;
   }
 
-  #youtube a img{
-    width: 100px;
-    height: 100px;
+  #git a img{
+    width: 50px;
+    height: 50px;
     cursor: pointer;
   }
 
-  .contactcontent label{
-    float:left;
-    padding-top: 60px;
-    margin-left: 20%;
-    font-size: 20px;
-    font-family: Helvetica;
-    color: white;
-    width: 30%;
-    overflow-x: scroll;
+
+
+
+
+
+
+.flex-container{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 10%;
+  width: 300px;
   }
 
-  .contactcontent p{
-    width: 500px;
-    height: 400px;
-    float: right;
-    font-size: 20px;
-    font-family: Helvetica;
-    color: white;
+  .flex-container div{
+    width: 50px;
+    margin: 10px;
+    z-index: 1;
+    margin-left: 10px;
+    line-height: 0px;
+    height: 50px;
   }
 
-  .contactcontent #info{
-    float: left;
-    margin-left: 100px;
-    display: block;
-    margin-top: 100px;
+  .flex-container div:hover{
+    justify-content: center;
+    width: 55px;
+    margin: 0px;
+    z-index: 1;
+    line-height: 50px;
+    height: 50px;
   }
+
+
+
+
 }

@@ -1,0 +1,164 @@
+.header{
+  display: block;
+  background-color: #DCDCDC;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+@media query {min-width: 600px ;
+ body {
+   position: relative;
+ }
+}
+
+.header .headertitle{
+  display: inline-block;
+  top: 0;
+  font-family: 'Montserrat', serif;
+  font-weight: lighter;
+  font-size: 30px;
+  padding-top: 0px;
+  margin-right: 0;
+  margin-left: 0px;
+  float: left;
+}
+.header .headertitle:hover{
+  display: inline-block;
+  top: 0;
+  font-family: 'Montserrat', serif;
+  font-size: 30px;
+  padding-top: 2px;
+  margin-right: 0;
+  margin-left: 0px;
+  float: left;
+}
+
+.header .logo img{
+   background-image: url('img/img3.png');
+   background-repeat:no-repeat;
+   background-size:contain;
+   height:100px;width:100px;
+   float: left;
+   margin-left: 10%;
+   top: 0;
+}
+
+
+.header .headertitle h1{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: 'Montserrat', serif;
+  font-size: 30px;
+  position:relative;
+  top: 0;
+}
+
+
+
+.header .optionheader{
+
+  float:right;
+  position:relative;
+  right: 25px;
+  display: inline;
+  margin-right: 10%;
+  font-family: 'Montserrat', serif;
+  font-size: 22px;
+  top: 0;
+}
+
+
+.header .optionheader nav ul li a{
+  float: right;
+  text-align: left;
+  top: 0;
+}
+
+#contact{
+  padding-top: 50px;
+  height:800px;
+  color: white;
+  background-color: white;
+  display: block;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.contactcontent{
+overflow-y: scroll;
+background-image: url('img/contactpage.jpg');
+background-size: 100% 100%;
+
+
+}
+
+.contactcontent p{
+  width: 900px;
+  height: 400px;
+
+
+  font-family: 'Montserrat', serif;
+  font-size: 22px;
+  
+  color: black;
+}
+
+.contactcontent #info{
+  color: black;
+  font-family: 'Montserrat', serif;
+  font-size: 22px;
+  float: left;
+  display: block;
+  margin-top: 10%;
+  margin-left: 30%;
+
+}
+
+#facebook a img{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#linkedin a img{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#git a img{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 10%;
+  width: 300px;
+  }
+
+  .flex-container div{
+    width: 50px;
+    margin: 10px;
+    z-index: 1;
+    margin-left: 10px;
+    line-height: 0px;
+    height: 50px;
+  }
+
+  .flex-container div:hover{
+    justify-content: center;
+    width: 55px;
+    margin: 0px;
+    z-index: 1;
+    line-height: 50px;
+    height: 50px;
+  }
